@@ -49,6 +49,11 @@ let cool = tempGen (fun x -> x)
 let heat = cool
 let maintain = tempGen (fun x -> 1.0)
 
+
+
+
+// START HERE
+
 let temps = 
     start       70.0 
     |> maintain 70.0  4.5
@@ -84,14 +89,3 @@ let shcSearch (space:float[]) maxIter =
 
 
 let hotTime = (float (shcSearch searchSpace 20) + 1.0) * timeStep  // in hours
-
-(*
-let test = [0.0 .. 0.1 .. 1.0];;
-
-let p = List.map peaking test
-let r = List.map rising test
-let b = List.map bottoming test
-let f = List.map falling test
-*)
-
-List.iter (fun x -> printf "%f" x) temps
