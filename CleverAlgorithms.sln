@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RandomSearch", "RandomSearch\RandomSearch.fsproj", "{0253E70C-BB9A-4BC5-87DE-D909EB3CA8F0}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "StochasticHillClimbing", "StochasticHillClimbing\StochasticHillClimbing.fsproj", "{438515E9-8311-4BA1-A212-179A0133799B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{0253E70C-BB9A-4BC5-87DE-D909EB3CA8F0}.Debug|x86.Build.0 = Debug|x86
 		{0253E70C-BB9A-4BC5-87DE-D909EB3CA8F0}.Release|x86.ActiveCfg = Release|x86
 		{0253E70C-BB9A-4BC5-87DE-D909EB3CA8F0}.Release|x86.Build.0 = Release|x86
+		{438515E9-8311-4BA1-A212-179A0133799B}.Debug|x86.ActiveCfg = Debug|x86
+		{438515E9-8311-4BA1-A212-179A0133799B}.Debug|x86.Build.0 = Debug|x86
+		{438515E9-8311-4BA1-A212-179A0133799B}.Release|x86.ActiveCfg = Release|x86
+		{438515E9-8311-4BA1-A212-179A0133799B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
