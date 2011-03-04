@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "StochasticHillClimbing", "S
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TemperatureSim", "TemperatureSim\TemperatureSim.fsproj", "{9309AA8A-4E70-4632-BBE0-0CFBF8622DB8}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IteratedLocalSearch", "IteratedLocalSearch\IteratedLocalSearch.fsproj", "{648B5C3B-B439-4374-B5CE-5B74F934565E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,16 @@ Global
 		{9309AA8A-4E70-4632-BBE0-0CFBF8622DB8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{9309AA8A-4E70-4632-BBE0-0CFBF8622DB8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{9309AA8A-4E70-4632-BBE0-0CFBF8622DB8}.Release|x86.ActiveCfg = Release|Any CPU
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Debug|x86.ActiveCfg = Debug|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Debug|x86.Build.0 = Debug|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Release|Any CPU.ActiveCfg = Release|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Release|x86.ActiveCfg = Release|x86
+		{648B5C3B-B439-4374-B5CE-5B74F934565E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

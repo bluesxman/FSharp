@@ -62,9 +62,9 @@ let iterativeLocal perturb local maxIter start cost =
     search start [] 0
 
 // Build it
-let searchSpace = sineSpace 0.123 0.836
+let searchSpace = sineSpace 0.923 1.536
 let localRadius = 0.2
-let perturbRadius = 1.0
+let perturbRadius = 5.0
 let localIter = 1000
 let mainIter = 100
 
