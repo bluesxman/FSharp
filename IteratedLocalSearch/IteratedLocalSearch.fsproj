@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>334589e9-d1e5-44df-bdd5-5e0cf536ea84</ProjectGuid>
+    <ProjectGuid>{648b5c3b-b439-4374-b5ce-5b74f934565e}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>IteratedLocalSearch</RootNamespace>
     <AssemblyName>IteratedLocalSearch</AssemblyName>
@@ -42,7 +42,7 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="ILS.fs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets" Condition="!Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" Condition=" Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
